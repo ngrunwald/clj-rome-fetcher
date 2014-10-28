@@ -39,7 +39,7 @@
   ([url ^FeedFetcher fetcher opts]
      (r/convert-feed (.retrieveFeed fetcher (URL. (str url))) opts))
   ([url fetcher]
-     (retrieve-feed fetcher url {}))
+     (retrieve-feed url fetcher {}))
   ([url]
      (retrieve-feed url *fetcher* {})))
 
