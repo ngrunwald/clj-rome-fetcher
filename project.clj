@@ -1,6 +1,6 @@
-(defproject clj-rome-fetcher "0.1.1-SNAPSHOT"
-  :description "A Clojure wrapper for the ROME feed fetcher"
-  :url "https://github.com/ngrunwald/clj-rome-fetcher"
+(defproject clj-rome-fetching "0.1.0"
+  :description "A Clojure wrapper for the ROME feed fetcher."
+  :url "https://github.com/tropicalmug/clj-rome-fetcher"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
